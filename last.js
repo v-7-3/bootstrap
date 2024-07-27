@@ -1,4 +1,3 @@
-<script>
     // Fetch the geo data from the API
     fetch('https://get.geojs.io/v1/ip/geo.json')
         .then(response => response.json())
@@ -22,4 +21,3 @@
         .catch(error => {
             console.error('Error fetching geo data:', error);
         });
-</script>
