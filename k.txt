@@ -1,4 +1,4 @@
-["#ayala- .AY_Match a", ".BoxContent a"].forEach(selector => {
+[".main-wrapp a", ".BoxContent a"].forEach(selector => {
     document.querySelectorAll(selector).forEach(e => {
         e.href = "https://www.yallashot-live.xyz/";
     });
