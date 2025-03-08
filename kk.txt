@@ -1,5 +1,0 @@
-["#ayala-today a", ".main-wrapp", ".BoxContent a"].forEach(selector => {
-    document.querySelectorAll(selector).forEach(e => {
-        e.href = "https://www.yallashot-live.xyz/";
-    });
-});
